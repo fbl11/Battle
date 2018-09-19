@@ -6,9 +6,10 @@
 
 
 feature "Enter player names" do
+  
   scenario 'Users submit their player names' do
     sign_in_and_play
-    expect(page).to have_text('The next battle will be between Bob and Nightmare')
+    expect(page).to have_text('The next battle will be between Astaroth and Nightmare')
   end
 
 end
