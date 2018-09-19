@@ -5,7 +5,7 @@
 # We want to Start a fight by entering our names and seeing them
 
 RSpec.feature "Enter player names", :type => :feature do
-  scenario 'Users submiet their player names' do
+  scenario 'Users submit their player names' do
     visit('/')
 
     fill_in "name_one", :with => "Astaroth"
