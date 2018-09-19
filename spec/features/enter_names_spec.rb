@@ -4,7 +4,6 @@
 # So we can play a personalised game of Battle,
 # We want to Start a fight by entering our names and seeing the
 
-
 feature "Enter player names" do
   
   scenario 'Users submit their player names' do
